@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vintage Ruled Notebook Guidelines - সূক্ষ্ম এবং লেখার মার্জিন না ঘেঁষে সুন্দর প্যাডিং */
+.notebook-ruled-bg {
+  background-color: #FDFBF7;
+  background-image: linear-gradient(rgba(30, 24, 72, 0.05) 1px, transparent 1px);
+  background-size: 100% 1.75rem;
+}
+
+/* Watermark Frame - চারপাশে খুবই হালকা রয়্যাল বটানিক্যাল লতাপাতার বর্ডার */
+.vintage-watermark-border {
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.05);
+}
